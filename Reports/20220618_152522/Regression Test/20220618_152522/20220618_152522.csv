@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,,,,2022-06-18 15:25:58,2022-06-18 15:26:32,34.667s,PASSED
+,,,,,,,
+Test Cases/TC01-Validation Response and Verify JSON Value,,,,2022-06-18 15:25:59,2022-06-18 15:26:20,20.741s,PASSED
+"sendRequest(findTestObject(""GET/Get List User""))",,Mengirim Request,,2022-06-18 15:26:02,2022-06-18 15:26:16,14.105s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GET/Get List User""))",,Mengirim Request dan Verifikasi Response,,2022-06-18 15:26:16,2022-06-18 15:26:20,3.515s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verifikasi Response Status Code,,2022-06-18 15:26:20,2022-06-18 15:26:20,0.006s,PASSED
+"verifyElementsCount(response, ""data.first_name"", 6)",,Verifikasi Jumlah Elemen yang terdapat pada JSON,,2022-06-18 15:26:20,2022-06-18 15:26:20,0.165s,PASSED
+"verifyElementPropertyValue(response, ""data[4].first_name"", ""Charles"")",,Verifikasi Elemen pada JSON,,2022-06-18 15:26:20,2022-06-18 15:26:20,0.167s,PASSED
+,,,,,,,
+Test Cases/TC03-Validation Response Register Successfull,,,,2022-06-18 15:26:20,2022-06-18 15:26:24,4.184s,PASSED
+"sendRequest(findTestObject(""POST/POST Register User Successful""))",,Mengirimkan Request,,2022-06-18 15:26:22,2022-06-18 15:26:23,0.849s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST/POST Register User Successful""))",,Mengirimkan Request dan Verifikasi Response,,2022-06-18 15:26:23,2022-06-18 15:26:24,1.508s,PASSED
+"verifyResponseStatusCode(response, 200)",,Memverifikasi Response Status Code,,2022-06-18 15:26:24,2022-06-18 15:26:24,0.009s,PASSED
+,,,,,,,
+Test Cases/TC02-Validation Response and Verify JSON Value,,,,2022-06-18 15:26:24,2022-06-18 15:26:28,3.806s,PASSED
+"sendRequest(findTestObject(""GET/Get Single User""))",,Mengirim Request,,2022-06-18 15:26:26,2022-06-18 15:26:27,0.587s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GET/Get Single User""))",,Mengirim Request dan Verifikasi Response,,2022-06-18 15:26:27,2022-06-18 15:26:28,1.529s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verifikasi Response Status Code,,2022-06-18 15:26:28,2022-06-18 15:26:28,0.005s,PASSED
+"verifyElementsCount(response, ""data.first_name"", 5)",,Verifikasi Jumlah Elemen yang Terdapat pada JSON,,2022-06-18 15:26:28,2022-06-18 15:26:28,0.095s,PASSED
+"verifyElementPropertyValue(response, ""data.first_name"", ""Janet"")",,Verifikasi Elemen pada JSON,,2022-06-18 15:26:28,2022-06-18 15:26:28,0.052s,PASSED
+,,,,,,,
+Test Cases/TC04-Validation Response Update User,,,,2022-06-18 15:26:28,2022-06-18 15:26:32,3.872s,PASSED
+"sendRequest(findTestObject(""PUT/PUT Update User""))",,Mengirimkan Request,,2022-06-18 15:26:30,2022-06-18 15:26:31,0.935s,PASSED
+"response = sendRequestAndVerify(findTestObject(""PUT/PUT Update User""))",,Mengirimkan dan Memverifikasi Request dan Response,,2022-06-18 15:26:31,2022-06-18 15:26:32,1.543s,PASSED
+"verifyResponseStatusCode(response, 200)",,Memverifikasi Response Status Code,,2022-06-18 15:26:32,2022-06-18 15:26:32,0.004s,PASSED
