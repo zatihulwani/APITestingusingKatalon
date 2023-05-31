@@ -17,24 +17,34 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>kat-209108113858868795.groovy</name>
+			<name>kat-6368786777860970902.groovy</name>
 			<type>1</type>
-			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-209108113858868795.groovy</location>
+			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-6368786777860970902.groovy</location>
 		</link>
 		<link>
-			<name>kat-3177041800862921455.groovy</name>
+			<name>kat-7244765595640290921.groovy</name>
 			<type>1</type>
-			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-3177041800862921455.groovy</location>
+			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-7244765595640290921.groovy</location>
 		</link>
 		<link>
-			<name>kat-3612209417178313206.groovy</name>
+			<name>kat-7626968774015893531.groovy</name>
 			<type>1</type>
-			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-3612209417178313206.groovy</location>
+			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-7626968774015893531.groovy</location>
 		</link>
 		<link>
-			<name>kat-446086549088475582.groovy</name>
+			<name>kat-8116775265436139315.groovy</name>
 			<type>1</type>
-			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-446086549088475582.groovy</location>
+			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-8116775265436139315.groovy</location>
+		</link>
+		<link>
+			<name>kat-8882951717698448610.groovy</name>
+			<type>1</type>
+			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-8882951717698448610.groovy</location>
+		</link>
+		<link>
+			<name>kat-9223009585380256940.groovy</name>
+			<type>1</type>
+			<location>/var/folders/_h/fv49zy512xl80dyj729zrlbr0000gp/T/Katalon/Web Services/kat-9223009585380256940.groovy</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -49,6 +59,24 @@
 		</filter>
 		<filter>
 			<id>1655528098486</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1685510455660</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1685510455672</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

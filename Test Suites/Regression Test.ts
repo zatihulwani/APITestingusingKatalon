@@ -15,7 +15,7 @@
       <guid>a1bb66cc-bc90-4912-807e-9f03e11b8bd5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC01-Validation Response and Verify JSON Value</testCaseId>
+      <testCaseId>Test Cases/TC01-Get List User Validation Response and Verify JSON Value</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -29,7 +29,7 @@
       <guid>19f767d7-4594-4a31-ab6f-e60717f06ade</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC02-Validation Response and Verify JSON Value</testCaseId>
+      <testCaseId>Test Cases/TC02-Get Single User Validation Response and Verify JSON Value</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -37,6 +37,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC04-Validation Response Update User</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ffa7374d-9c89-4b4b-a149-52672b3ed3b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC05-Validation Response Delete User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
